@@ -576,7 +576,6 @@ function initScript() {
   initScrollLetters();
   initTricksWords();
   initContactForm();
-  initTimeZone();
   initLazyLoad();
   initPlayVideoInview();
   initScrolltriggerAnimations();
