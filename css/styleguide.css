@@ -99,8 +99,8 @@
 @media screen and (max-width: 540px){
 
     :root { 
-        --color-border: rgb(221,129,255);
-        --color-border-light: rgb(221,129,255);
+        --color-border: #bb78ff;
+        --color-border-light: #bb78ff;
         --container-padding: clamp(1.25em, 4vw, 2.5em);
         --section-padding: max(2.5em, 12vh);
     }
@@ -401,7 +401,7 @@ video.overlay {
 .btn-click {
 	cursor: pointer;
 	border: 0;
-	color: rgb(221,129,255);
+	color: #bb78ff;
 	background: transparent;
 	border-radius: 2.125em;
 	min-width: 1em;
