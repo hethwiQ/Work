@@ -2060,7 +2060,7 @@ main {
  }
  
  .single-about-image .overlay:nth-child(1) {
-    background: url("../img/DSC07312-2.jpg") center center no-repeat;
+    background: url("https://raw.githubusercontent.com/hethwiQ/siteassets/refs/heads/main/images/gemini/mobile-sc-3.webp") center center no-repeat;
     background-size: cover;
     top: -20vh;
     height: 105%;
@@ -2282,22 +2282,22 @@ main {
  /* ------------------------- About - Split Awwwards -------------------------------------------------- */
  
  
- .about-awwwards .row {
+ .about .row {
     align-items: center;
  }
  
- .about-awwwards .flex-col:nth-child(1) {
+ .about .flex-col:nth-child(1) {
     width: 50%;
     padding-right: calc(var(--container-padding) / 2);
  }
  
- .about-awwwards .flex-col:nth-child(2) {
+ .about .flex-col:nth-child(2) {
     width: 50%;
     padding-left: calc(var(--container-padding) / 2);
     padding-bottom: 3em;
  }
  
- .about-awwwards .single-image {
+ .about .single-image {
     width: 100%;
     display: block;
     background: var(--color-lightgray);
@@ -2305,22 +2305,22 @@ main {
     position: relative;
  }
  
- .about-awwwards .single-image::before{
+ .about .single-image::before{
     content: "";
     display: block;
     padding-top: 135%;
     padding-top: 125%;
  }
  
- .about-awwwards .single-image  .overlay:nth-child(1) {
-    background: url("../img/DSC07292.jpg") center center no-repeat;
+ .about .single-image  .overlay:nth-child(1) {
+    background: url("https://raw.githubusercontent.com/hethwiQ/siteassets/refs/heads/main/images/gemini/ol-gem1.webp") center center no-repeat;
     background-size: cover;
     height: 130%;
     top: -25%;
     width: 105%;
     left: -5%;
  
-    background: url("../img/DSC07079.jpg") center center no-repeat;
+    background: url("https://raw.githubusercontent.com/hethwiQ/siteassets/refs/heads/main/images/gemini/ol-gem1.webp") center center no-repeat;
     background-size: cover;
     top: -3%;
     height: 106%;
@@ -2328,24 +2328,24 @@ main {
     left: -40%;
  }
  
- .about-awwwards .single-image  .overlay:nth-child(2) {
+ .about .single-image  .overlay:nth-child(2) {
     background: linear-gradient(to bottom,hsla(220, 13%, 5%, .075) 0%, hsla(220, 13%, 5%, 0) 50%);
  }
  
- .about-awwwards .awwwards-badge {
+ .about .badge {
     width: 6em;
     position: relative;
     margin-bottom: calc(var(--section-padding) / 4);
     border-radius: 50%;
  }
  
- .about-awwwards .awwwards-badge::before {
+ .about .badge::before {
     display: block;
     content: "";
     padding-top: 100%;
  }
  
- .about-awwwards .awwwards-badge svg:nth-child(1) {
+ .about .badge svg:nth-child(1) {
     width: 100%;
     position: absolute;
     top: 50%;
@@ -2353,11 +2353,11 @@ main {
     transform: translate(-50%, -50%);
  }
  
- .about-awwwards .awwwards-badge svg:nth-child(1) g {
+ .about .badge svg:nth-child(1) g {
     fill: var(--color-gray);
  }
  
- .about-awwwards .awwwards-badge svg:nth-child(2) {
+ .about .badge svg:nth-child(2) {
     width: 40%;
     position: absolute;
     top: 50%;
@@ -2365,33 +2365,33 @@ main {
     transform: translate(-50%, -50%);
  }
  
- .about-awwwards .awwwards-badge svg:nth-child(2) path {
+ .about .badge svg:nth-child(2) path {
     fill: var(--color-gray);
  }
  
  @media screen and (max-width: 720px) {
  
-    .about-awwwards {
+    .about {
        padding-top: calc(var(--section-padding) / 1.5);
     }
-    .about-awwwards .flex-col:nth-child(1) {
+    .about .flex-col:nth-child(1) {
        width: 100%;
        padding-right: 0;
     }
     
-    .about-awwwards .flex-col:nth-child(2) {
+    .about .flex-col:nth-child(2) {
        width: 100%;
        padding-left: 0;
        padding-bottom: calc(var(--section-padding) / 2);
        order: 1;
     }
  
-    .about-awwwards .single-image::before{
+    .about .single-image::before{
        padding-top: 125%;
     }
     
-    .about-awwwards .single-image  .overlay:nth-child(1) {
-       background: url("../img/DSC07079.jpg") center center no-repeat;
+    .about .single-image  .overlay:nth-child(1) {
+       background: url("https://raw.githubusercontent.com/hethwiQ/siteassets/refs/heads/main/images/gemini/ol-gem1.webp") center center no-repeat;
        background-size: cover;
        top: -8%;
        height: 110%;
