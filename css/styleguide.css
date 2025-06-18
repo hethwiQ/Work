@@ -54,22 +54,22 @@
 
 :root {
 
-    --color-dark: rgb(42,6,79);
-    --color-dark-dark: rgb(42,6,79);
+    --color-dark: rgb(17, 0, 34);
+    --color-dark-dark: rgb(17, 0, 34);
     --color-light: #9a7676;
-    --color-blue: rgb(42,6,79);
-    --color-blue-dark: rgb(42,6,79);
-    --color-gray: rgb(42,6,79);
+    --color-blue: rgb(17, 0, 34);
+    --color-blue-dark: rgb(17, 0, 34);
+    --color-gray: rgb(17, 0, 34);
     --color-lightgray: #E9EAEB;
     --color-white: rgb(187, 120, 255);
     
-    --color-border: rgb(42,6,79);
+    --color-border: rgb(17, 0, 34);
     --color-border-solid: #D2D2D2;
-    --color-border-light: rgb(42,6,79);
-    --color-border-solid-light: rgb(42,6,79);
+    --color-border-light: rgb(17, 0, 34);
+    --color-border-solid-light: rgb(17, 0, 34);
 
-    --color-text: rgb(42,6,79);
-    --color-text-light: rgb(42,6,79);;
+    --color-text: rgb(17, 0, 34);
+    --color-text-light: rgb(17, 0, 34);;
 
     --alert-error: #ff4444;
     --alert-success: #24C958;
