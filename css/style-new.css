@@ -364,6 +364,7 @@ main {
  
  .fixed-nav .social-row .stripe {
     display: none;
+    opacity: 0;
  }
  
  @media screen and (max-height: 680px){

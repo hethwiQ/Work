@@ -112,6 +112,8 @@
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 li, ul {padding: 0; margin: 0; list-style: none;}
 
+
+
 body {
     -webkit-font-smoothing: antialiased;
     font-family: 'Dennis Sans', sans-serif;
@@ -347,6 +349,8 @@ video.overlay {
     height: 1px;
     background-color: var(--color-border);
 }
+
+
 
 .theme-dark .stripe {
     background-color: var(--color-border-light);
