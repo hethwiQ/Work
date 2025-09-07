@@ -1566,6 +1566,10 @@ main {
        margin-top: calc(var(--section-padding) / 6);
     }
  }
+
+ .overlay-image{
+   border: 2px solid var(--color-dark)
+ }
  
  /* ------------------------- Work Tiles - Home -------------------------------------------------- */
  
@@ -1639,6 +1643,7 @@ main {
     transition: width .4s cubic-bezier(0.36, 0, 0.66, 0);
     left: 0%;
     will-change: transform, width;
+    
  }
  
  .mouse-pos-list-image.active {
@@ -3635,3 +3640,13 @@ main {
    }
   }
   
+/* Hide footer on devices with width 540px or less (phones) */
+@media screen and (max-width: 540px) {
+  .footer-wrap,
+  .footer,
+  .footer-contact,
+  .footer-rounded-div,
+  .bottom-footer {
+    display: none !important;
+  }
+}

@@ -57,15 +57,15 @@
     --color-dark: rgb(17, 0, 34);
     --color-dark-dark: rgb(17, 0, 34);
     --color-light: #9a7676;
-    --color-blue: rgb(17, 0, 34);
-    --color-blue-dark: rgb(17, 0, 34);
+    --color-blue: #9f7ee7;
+    --color-blue-dark: #9f7ee7;
     --color-gray: rgb(17, 0, 34);
-    --color-lightgray: #E9EAEB;
-    --color-white: rgb(187, 120, 255);
+    --color-lightgray: #fcf7ff;
+    --color-white: #fcf7ff;
     
-    --color-border: rgb(17, 0, 34);
-    --color-border-solid: #D2D2D2;
-    --color-border-light: rgb(17, 0, 34);
+    --color-border: rgb(17, 0, 34);;
+    --color-border-solid: #fcf7ff;
+    --color-border-light: #fcf7ff;
     --color-border-solid-light: rgb(17, 0, 34);
 
     --color-text: rgb(17, 0, 34);
@@ -99,8 +99,8 @@
 @media screen and (max-width: 540px){
 
     :root { 
-        --color-border: rgb(187, 120, 255);
-        --color-border-light: rgb(187, 120, 255);
+        --color-border: #fcf7ff;
+        --color-border-light: #fcf7ff;
         --container-padding: clamp(1.25em, 4vw, 2.5em);
         --section-padding: max(2.5em, 12vh);
     }
@@ -405,7 +405,7 @@ video.overlay {
 .btn-click {
 	cursor: pointer;
 	border: 0;
-	color: rgb(187, 120, 255);
+	color: #fcf7ff;
 	background: transparent;
 	border-radius: 2.125em;
 	min-width: 1em;
